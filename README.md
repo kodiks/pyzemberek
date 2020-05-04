@@ -1,5 +1,10 @@
-# pyzemberek (Beta v.0.0.1)
+# pyzemberek (v0.0.1-beta)
 Türkçe Doğal Dil İşleme Kütüphanesi olan [Zemberek](https://github.com/ahmetaa/zemberek-nlp)'in, Python entegrasyonu.
+
+## Requirements
+- [Cython](https://pypi.org/project/Cython/)
+- [pyjnius](https://pypi.org/project/pyjnius/)
+
 
 ## Changelog
 

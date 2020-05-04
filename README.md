@@ -6,6 +6,22 @@ Türkçe Doğal Dil İşleme Kütüphanesi olan [Zemberek](https://github.com/ah
 - [pyjnius](https://pypi.org/project/pyjnius/)
 
 
+## Getting Started
+1.  Install required packages.
+    ```
+    pip install -r requirements.txt
+    ```
+
+2.  Install JDK and define JAVA_HOME environment.
+    ```
+    sudo apt install openjdk-8-jdk
+    ```
+    ```
+    export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
+    ```
+
+## Use of samples
+
 ## Changelog
 
 -   19.04.2020

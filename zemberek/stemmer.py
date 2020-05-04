@@ -2,9 +2,10 @@
 import os
 from os.path import join
 
+PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(PROJECT_ROOT)
 
-ROOT_DIR = os.path.dirname(os.path.abspath(__file__))
-ZEMBEREK_PATH = join(ROOT_DIR, 'bin', 'zemberek-full-0.17.1.jar')
+ZEMBEREK_PATH = join(BASE_DIR, 'zemberek', 'bin', 'zemberek-full-0.17.1.jar')
 
 import jnius_config
 #jnius_config.add_options('-Xrs', '-Xmx4096')

@@ -1,3 +1,5 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 from zemberek.tokenization import Tokenization
 from zemberek.stemmer import Stemmer
 from tqdm import tqdm

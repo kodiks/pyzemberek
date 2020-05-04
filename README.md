@@ -1,7 +1,10 @@
-# pyzemberek
-Python implementation of the Turkish NLP library Zemberek.
+# pyzemberek (Beta v.0.0.1)
+Türkçe Doğal Dil İşleme Kütüphanesi olan [Zemberek](https://github.com/ahmetaa/zemberek-nlp)'in, Python entegrasyonu.
 
+## Changelog
 
+-   19.04.2020
+    -   tokenizasyon ve stemming örnekleri eklendi.
 
 License
 =======
